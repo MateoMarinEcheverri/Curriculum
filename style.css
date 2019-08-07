@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padding {
+    width: 842px;
+    height: auto;
+    margin: 0% auto;
+    padding: 18px 30px;
+}
+
+.icon-color {
+    color: gray;
+}
+
+.bg-green {
+    height: 175px;
+    background-color: #00897B;
+    -webkit-text-fill-color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+    color: #00897B;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.gray-text {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+.name {
+    color: white;
+    font-weight: 400;
+}
+
+.info{
+    margin-top: 40px;
+}
+
+.profile {
+    float: left;
+    margin-right: 30px;
+}
+
+.icon-user {
+    float: left;
+    font-size: 32px;
+    width: 40px;
+    color: #00897B;
+}
+
+.about{
+    width: 550px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.information-left {
+    height: 470px;
+    width: 421px;    
+    float: left;
+}
+
+.information-right {
+    height: 470px;
+    width: 421px;
+    float: right;
+}
+
+.lang{
+    clear: both;
+    display: flex;    
+    justify-content: space-between;
+    margin-bottom: 50px
+}
+
+.grid {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 15px;
+    grid-template-columns: 33% 33% 33%;
+}
