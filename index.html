@@ -91,8 +91,8 @@
 
             <div>
                 <h2><i class="fas fa-globe-americas"></i> ON WEB</h2>
-                <p>www.linkedin.com/in/mateomarinecheverri
-                    <br>https://twitter.com/mateomarin99</p>
+                <p>linkedin.com/in/mateomarinecheverri
+                    <br>twitter.com/mateomarin99</p>
             </div>
 
             <div>
@@ -103,41 +103,60 @@
         </div>
 
         <h2><i class="fas fa-laptop"></i> HABILIDADES TECNICAS</h2>
+
         <div class="grid">
-            <div>
-                <p><strong>Front-end</strong>
-                    <br>HTML5, CSS, SASS, JS/ES6, jQuery, Vuejs, Typescript</p>
+            <div class="box">
+                <h3 name="title">Front-end</h3>
+                <p name="skills">HTML5, CSS, SASS, JS/ES6, jQuery, Vuejs, Typescript</p>
             </div>
-            <div>
-                <p><strong>Back-end</strong>
-                    <br>Nodejs, C#, PHP</p>
+
+            <div class="box">
+                <h3 name="title">Back-end</h3>
+                <p name="skills">Nodejs, C#, PHP</p>
             </div>
-            <div>
-                <p><strong>Frameworks</strong>
-                    <br>Bootstrap, foundation, Material Design Lite</p>
+
+            <div class="box">
+                <h3 name="title">Frameworks</h3>
+                <p name="skills">Bootstrap, foundation, Material Design Lite</p>
             </div>
-            <div>
-                <p><strong>Wireframes and Prototypes</strong>
-                    <br>Axure, Adobe XD, Sketch</p>
+
+            <div class="box">
+                <h3 name="title">Wireframes and Prototypes</h3>
+                <p name="skills">Axure, Adobe XD, Sketch</p>
             </div>
-            <div>
-                <p><strong>Plataforms</strong>
-                    <br>Wordpress, OpenCart</p>
+
+            <div class="box">
+                <h3 name="title">Plataforms</h3>
+                <p name="skills">Wordpress, OpenCart</p>
             </div>
-            <div>
-                <p><strong>Vector (icons)</strong>
-                    <br>Inkscape, Illustrator</p>
+
+            <div class="box">
+                <h3 name="title">Vector (icons)</h3>
+                <p name="skills">Inkscape, Illustrator</p>
             </div>
-            <div>
-                <p><strong>Automation tools</strong>
-                    <br>Gulp, Grunt</br>
+
+            <div class='box'>
+                <h3 name="title">Automation tools</h3>
+                <p name="skills">Gulp, Grunt</p>
             </div>
-            <div>
-                <p><strong>Others</strong>
-                    <br>Git, Hotjar, Resposive Design (mobile-fisrt), basic SEO, Agile methodologies, Vagrant</p>
+
+            <div class="box" id="others">
+                <h3 name="title">Others</h3>
+                <p name="skills">Git, Hotjar, Resposive Design (mobile-fisrt), basic SEO, Agile methodologies, Vagrant</p>
             </div>
+
         </div>
     </div>
-</body>
 
+    <div id="popup" style="display: none;">
+        <div class="close"><a href="#" id="close"><i class="fas fa-times"></i></a></div>
+        <div>
+            <h2 class="popup-title" id="popup-title">Title</h2>
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="popup.js"></script>
+</body>
 </html>
