@@ -4,8 +4,8 @@ $(document).ready(function () {
         skills.addEventListener('click', function () {
 
             var colors = ["red", "maroon", "olive", "lime", "green", "aqua", "teal", "blue", "navy", "fuchsia", "purple"];
-            let title = document.getElementById('title').innerHTML;
-            let skill = document.getElementById('skills').innerHTML;
+            let title = this.getAttribute("id");
+            let skill = document.getElementById('skills-'+title).innerHTML;
 
             document.getElementById('popup-title').innerHTML = title;
             document.getElementById('progress-bar').innerHTML = "";
@@ -26,14 +26,16 @@ $(document).ready(function () {
             bar.insertAdjacentHTML("beforeend", message);
 
 
-            let altura = 250
-            let anchura = 500
+            let altura = 150;
+            let anchura = 300;
 
             let y = parseInt(($(document).height() / 2) - (altura / 2));
             let x = parseInt(($(document).width() / 2) - (anchura / 2));
 
-            $('#popup').css('top', y)
-            $('#popup').css('left', x)
+            $('#popup').css('top', y);
+            $('#popup').css('left', x);
+            $('#popup').css(("transform","translate(-"+y+", -"+x+")"));
+            
 
             // Bind scroll
             $('body').css({ 'overflow': 'hidden' });
