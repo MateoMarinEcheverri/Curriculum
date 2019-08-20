@@ -1,0 +1,61 @@
+.navbar {
+    color:white;
+    background-color: #00ADEE;
+}
+
+.span-black{
+    color: black;
+    font-weight: 500;
+}
+
+.carousel-index{
+    margin-top: 50px;
+}
+
+.about {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    height: 200px;
+
+}
+
+.education{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+.right {
+    width: 500px;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    float: left;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+	margin-top: 4%;
+	font-size: 5em;
+	font-weight: 500;
+	text-shadow: 1px 1px black;
+}
+
+.gray-text {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+.img-thumbnail {
+    width:550px;
+    height:250px;
+}
+
+p{
+    margin-left: 5px;
+}
+  
