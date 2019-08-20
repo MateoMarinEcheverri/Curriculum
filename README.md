@@ -1,2 +1,4 @@
-# Curriculum
-[Curriculum](https://MateoMarinEcheverri.github.io)
+# GitHub Pages
+[Curriculum html+css+js](https://MateoMarinEcheverri.github.io)
+[Curriculum Bootstrap](https://mateomarinecheverri.github.io/Bootstrap/)
+
